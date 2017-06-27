@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 import org.apache.commons.math3.stat.correlation.KendallsCorrelation;
 
-public class CalculateJaccardHARE {
+public class CalculateHAREKendall {
 	public static void main(String[] args) throws IOException {
 		File dir = new File("RankedLists");
 		File[] directoryListing = dir.listFiles();
